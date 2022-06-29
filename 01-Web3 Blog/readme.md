@@ -16,7 +16,7 @@
 
 ##
 requirments for make a **micro blog system**:
-- edit post --> [calling the post id and updating data] 
+- edit post --> [calling the post id and updating data. how to? just copy create post without increment id] 
 - add comment section --> [look like post add, referencing the post id] 
 - user role --> [example](https://docs.openzeppelin.com/contracts/2.x/access-control#using-roles) 
 - limitation for post's & comment's --> [look here](https://github.com/mosi-sol/live-contracts/blob/cf841ccf04a12560d93302e2b7132eb6f53aaca8/episode-18/string.sol#L6) 
