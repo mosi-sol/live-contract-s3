@@ -23,3 +23,10 @@ requirments for make a **micro blog system**:
 - *like system* --> [example](https://github.com/mosi-sol/live-contracts-s2/tree/main/10-like-system) 
 - *recomended to add* `receive() payable external{}` & a **withdraw** function --> [example 1](https://github.com/mosi-sol/live-contracts/tree/main/episode-1) - [example 2](https://github.com/mosi-sol/live-contracts/tree/main/episode-20) 
 - *etc*...
+
+##
+
+<div align="right"> 
+<a href="https://github.com/mosi-sol/live-contract-s3" target="blank">
+  <img src="https://img.shields.io/badge/License-MIT-blue?style=flat" alt="cafe_pafe" /></a>  
+</div>
