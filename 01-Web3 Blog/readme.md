@@ -15,7 +15,7 @@
 > live stream : 06-29-2022
 
 ##
-requirments for make a **micro blog system**:
+### requirments for make a **micro blog system**:
 - *edit post* --> ***calling the post id and updating data. how to? just copy create post without increment id*** 
 - *add comment section* --> ***look like post add, referencing the post id*** 
 - *user role* --> [example](https://docs.openzeppelin.com/contracts/2.x/access-control#using-roles) 
