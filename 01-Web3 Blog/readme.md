@@ -21,4 +21,5 @@ requirments for make a **micro blog system**:
 - user role
 - limitation for post's & comment's
 - like system
+- recomended to add `receive() payable external{}` & a **withdraw** function
 - etc...
