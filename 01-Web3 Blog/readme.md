@@ -13,3 +13,12 @@
 
 ---
 > live stream : 06-29-2022
+
+##
+requirments for make a **micro blog system**:
+- edit post
+- add comment section
+- user role
+- limitation for post`s & comment`s
+- like system
+- etc...
