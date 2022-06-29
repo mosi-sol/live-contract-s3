@@ -22,6 +22,7 @@
 - *limitation for post's & comment's* --> [look here](https://github.com/mosi-sol/live-contracts/blob/cf841ccf04a12560d93302e2b7132eb6f53aaca8/episode-18/string.sol#L6) 
 - *like system* --> [example](https://github.com/mosi-sol/live-contracts-s2/tree/main/10-like-system) 
 - *recomended to add* `receive() payable external{}` & a **withdraw** function --> [example 1](https://github.com/mosi-sol/live-contracts/tree/main/episode-1) - [example 2](https://github.com/mosi-sol/live-contracts/tree/main/episode-20) 
+- *using media (pic,video,music...) by [ipfs](https://ipfs.io)* --> [provier, helper 1](https://nft.storage) - [provier, helper 2](https://pinata.cloud) 
 - *etc*...
 
 ##
