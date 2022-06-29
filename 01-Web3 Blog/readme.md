@@ -19,6 +19,6 @@ requirments for make a **micro blog system**:
 - edit post
 - add comment section
 - user role
-- limitation for post`s & comment`s
+- limitation for post's & comment's
 - like system
 - etc...
