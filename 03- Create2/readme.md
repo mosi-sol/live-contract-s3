@@ -3,8 +3,9 @@
 ### `target` contract pre-computed 
 - TargetContract 
 
-### `create target` 
+### `create target` - use 1 of these
 - Create2Factory 
+- Create2Proxy
 
 #
 
