@@ -15,6 +15,7 @@ for more information check my youtube channel: pafecafe
 ### Content sheet:
 
 - 01- WEB3 Blog - [here](https://github.com/mosi-sol/live-contract-s3/tree/main/01-Web3%20Blog) 
+- 02- Swap with No Fee - [here](https://github.com/mosi-sol/live-contract-s3/tree/main/02-Swap%20No%20Fee) 
 
 
 ##
