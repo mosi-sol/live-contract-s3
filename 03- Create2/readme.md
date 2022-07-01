@@ -6,7 +6,7 @@
 ### `create target` 
 - Create2Factory 
 
----
+#
 
 - calculed: keccak256( 0xff ++ senderAddress ++ salt ++ keccak256(init_code))[12:]
 - nonce  is not zero - init_code 0x00 is danger
@@ -21,3 +21,12 @@
 ### included example's
 - `nodejs` solution create2
 - `ethersjs` example
+
+---
+
+### can use openzeppelin
+import "@openzeppelin/contracts/utils/Create2.sol";
+
+- deploy(amount, salt, bytecode)
+- computeAddress(salt, bytecodeHash)
+- computeAddress(salt, bytecodeHash, deployer)
