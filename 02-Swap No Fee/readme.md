@@ -14,3 +14,4 @@
 ##
 
 > BootCamp (solidity rush) - 8 hour solidity from scratch
+BootCamp weeks ago, language farsi/persian
