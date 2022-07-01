@@ -4,10 +4,12 @@
 - don't forget to `approve` the *swap address* on that *2 mock* as *spender*
 - run `createValuetion` function as liquidity pool
 - with your test account or other account run `swap` function
-
+##
 - for clear liquidity run `clearValuetion` function
-
+##
 - for using another token for pair's, deploy `SWAP` contract again with *new pairs* OR
 - - use factory pattern - [example](https://github.com/mosi-sol/live-contracts/tree/main/episode-3) 
 - - use proxy pattern - [example](https://github.com/mosi-sol/live-contracts/tree/main/episode-23) 
+##
 
+> BootCamp (solidity rush) - 8 hour solidity from scratch
