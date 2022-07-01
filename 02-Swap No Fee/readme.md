@@ -10,6 +10,7 @@
 - for using another token for pair's, deploy `SWAP` contract again with *new pairs* OR
 - - use factory pattern - [example](https://github.com/mosi-sol/live-contracts/tree/main/episode-3) 
 - - use proxy pattern - [example](https://github.com/mosi-sol/live-contracts/tree/main/episode-23) 
+- - use create2 pattern - [example](https://github.com/mosi-sol/live-contract-s3/tree/main/03-%20Create2)  
 ##
 
 > BootCamp (solidity rush) - 8 hour solidity from scratch
