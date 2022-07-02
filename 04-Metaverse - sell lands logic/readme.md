@@ -10,9 +10,8 @@ width & height = 0 to 128
 > code from bootcamp couple weeks ago
 ---
 
-01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16
+01&nbsp;  02&nbsp;  03&nbsp;  04&nbsp;  05&nbsp;  06&nbsp;  07&nbsp;  08  09  10  11  12  13  14  15  16
 
  
- ░  ░  ░  ░  ░  ░  ░  ░  ░  ░  ░  ░  ░  ░  ░  ░ 
+ ░&nbsp;&nbsp;  ░&nbsp;&nbsp;  ░&nbsp;&nbsp;  ░&nbsp;&nbsp;  ░&nbsp;&nbsp;  ░&nbsp;&nbsp;  ░&nbsp;&nbsp;  ░&nbsp;&nbsp;  ░&nbsp;&nbsp;  ░&nbsp;&nbsp;  ░&nbsp;&nbsp;  ░&nbsp;&nbsp;  ░&nbsp;&nbsp;  ░&nbsp;&nbsp;  ░&nbsp;&nbsp;  ░ 
  
- 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 
