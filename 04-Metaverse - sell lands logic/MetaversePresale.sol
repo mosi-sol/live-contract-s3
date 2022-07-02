@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8;
+pragma solidity 0.8;
 
 contract MetaversePresale {
     // width & height = 0 to 128 (calculate: 0 to 7, 8 to 15.... -> 2^6 -> 16 times)
