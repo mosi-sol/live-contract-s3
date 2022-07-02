@@ -18,3 +18,5 @@ width & height = 0 to 128
 #
 
 imagin: in this example we sell 16 pieces of metaverse, each one width is 8 block, and width equal to height in a big limited land! our metaverse 128 x 128 .
+
+this is ░ is 8 block.
