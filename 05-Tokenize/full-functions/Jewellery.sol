@@ -79,14 +79,14 @@ contract Jewellery is IShop, ERC165{
 
     receive() payable external 
     {
-        _shopBalance += _shopBalance;
+        _shopBalance += _msgValue();
     }
 
-    function withdraw() external onlyShop 
+    function withdraw() external payable onlyShop 
     {
         uint256 val = _shopBalance;
         _shopBalance = 0;
-        (bool sent, ) = SHOP.call{value: val}("");
+        (bool sent, ) = payable(_msgSender()).call{value: val}("");
         require(sent);
     }
 
