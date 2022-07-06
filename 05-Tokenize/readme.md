@@ -27,6 +27,8 @@
 ### fixed version:
 - ***full & fixed***: **look at** [this](https://github.com/mosi-sol/live-contract-s3/tree/main/05-Tokenize/full-functions) 
 
+&
+
 ### need to fix:
 - `_totalSell` : use this on `buy function`, add 1 unit. like => `_totalValue += 1;`
 - `_totalValue` : use this on `buy function`, add *value* . like => `_totalValue += msg.value;` 
