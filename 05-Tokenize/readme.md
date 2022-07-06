@@ -30,12 +30,12 @@
 - `_shopBalance` : use this on `receive function`, add *value* . like => `_totalValue += msg.value;`
 
 ***like tis example***
-```js
+```solidity
 receive() payable external {
-      _shopBalance += _shopBalance;
+      _shopBalance += _shopBalance; // <-- here
   }
 
-  function withdraw() external onlyShop {
+  function withdraw() external onlyShop {// <-- add this function
       uint256 val = _shopBalance;
       _shopBalance = 0;
       (bool sent, ) = SHOP.call{value: val}("");
@@ -52,8 +52,8 @@ receive() payable external {
         bool success = _buy(id);
         require(success && sent);
         if(_jewels[id].secondaryMarket == false){ _jewels[id].secondaryMarket = true; }
-        _totalSell += 1;
-        _totalValue += val;
+        _totalSell += 1;      // <-- here
+        _totalValue += val;   // <-- here
         emit Transfer(id, oldOwner_, _msgSender(), _itemCertify[id], block.timestamp);
     }
 
