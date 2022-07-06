@@ -61,6 +61,7 @@ receive() payable external {
 
 ---
 
+### p.s:
 - how to tokenize real world into blockchain, without erc721/erc1155
 - how to make market/shop based on smart contracts
 
