@@ -24,7 +24,7 @@
 - now customer can `list` again
 - and each time you can run `verify` function for know that item is not fake
 
-### nee to fix:
+### need to fix:
 - `_totalSell` : use this on `buy function`, add 1 unit. like => `_totalValue += 1;`
 - `_totalValue` : use this on `buy function`, add *value* . like => `_totalValue += msg.value;`
 
