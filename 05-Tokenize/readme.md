@@ -21,7 +21,7 @@ included:
 - or can transfer by shop address to any other address
 - when item is listed, can't transfer. need to cancel listing
 - after anyone `buy`ing the item, that item transfer to customer
-- now customer cam `list` again
+- now customer can `list` again
 - and each time you can run `verify` function for know that item is not fake
 
 ---
