@@ -34,16 +34,18 @@
 
 ***like this example***
 ```solidity
-receive() payable external {
-      _shopBalance += _shopBalance; // <-- here
-  }
+      receive() payable external 
+      {
+        _shopBalance += _msgValue(); // <------- this line
+      }
 
-  function withdraw() external onlyShop {// <-- add this function
-      uint256 val = _shopBalance;
-      _shopBalance = 0;
-      (bool sent, ) = SHOP.call{value: val}("");
-      require(sent);
-  }
+      function withdraw() external payable onlyShop  // <------- this function
+      {
+        uint256 val = _shopBalance;
+        _shopBalance = 0;
+        (bool sent, ) = payable(_msgSender()).call{value: val}("");
+        require(sent);
+      }
   
   function buy(uint256 id) external payable virtual override 
     {
@@ -55,8 +57,8 @@ receive() payable external {
         bool success = _buy(id);
         require(success && sent);
         if(_jewels[id].secondaryMarket == false){ _jewels[id].secondaryMarket = true; }
-        _totalSell += 1;      // <-- here
-        _totalValue += val;   // <-- here
+        _totalSell += 1;      // <--------------------------------------------------- here
+        _totalValue += val;   // <--------------------------------------------------- here
         emit Transfer(id, oldOwner_, _msgSender(), _itemCertify[id], block.timestamp);
     }
 
