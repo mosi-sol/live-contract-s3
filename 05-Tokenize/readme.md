@@ -6,7 +6,7 @@
 ### how to change :
 - import `tokenize.sol` (jewelery shop), copy the functions and change them. i use `virtual` for this purpes.
 
-included:
+### included:
 - `ierc20` for communication with all erc20 token, but not add functions in this bootcamp lecture
 - added `flat version` for friendly deploying
 - `ierc165` for communication by other **tokenized shop** like this has maked by `ishop.sol`
@@ -23,6 +23,10 @@ included:
 - after anyone `buy`ing the item, that item transfer to customer
 - now customer can `list` again
 - and each time you can run `verify` function for know that item is not fake
+
+### nee to fix:
+- `_totalSell` : use this on `buy function`, add 1 unit. like => `_totalValue += 1;`
+- `_totalValue` : use this on `buy function`, add *value* . like => `_totalValue += msg.value;`
 
 ---
 
