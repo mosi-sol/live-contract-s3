@@ -29,7 +29,7 @@
 - `_totalValue` : use this on `buy function`, add *value* . like => `_totalValue += msg.value;` 
 - `_shopBalance` : use this on `receive function`, add *value* . like => `_totalValue += msg.value;`
 
-***like tis example***
+***like this example***
 ```solidity
 receive() payable external {
       _shopBalance += _shopBalance; // <-- here
