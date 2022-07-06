@@ -76,4 +76,6 @@
 
 **Example = https://mumbai.polygonscan.com/address/0x6908180432b6ac89ae349447f87d9575ab630aac#code**
 
+**Full version = https://testnet.bscscan.com/address/0x1e2adb685159c692c4c4468bf70ec63212365cf2**
+
 > 07-07-2022
