@@ -26,7 +26,38 @@
 
 ### need to fix:
 - `_totalSell` : use this on `buy function`, add 1 unit. like => `_totalValue += 1;`
-- `_totalValue` : use this on `buy function`, add *value* . like => `_totalValue += msg.value;`
+- `_totalValue` : use this on `buy function`, add *value* . like => `_totalValue += msg.value;` 
+- `_shopBalance` : use this on `receive function`, add *value* . like => `_totalValue += msg.value;`
+
+***like tis example***
+```js
+receive() payable external {
+      _shopBalance += _shopBalance;
+  }
+
+  function withdraw() external onlyShop {
+      uint256 val = _shopBalance;
+      _shopBalance = 0;
+      (bool sent, ) = SHOP.call{value: val}("");
+      require(sent);
+  }
+  
+  function buy(uint256 id) external payable virtual override 
+    {
+        require(_msgSender() != _jewels[id].owner, "gas spending is not allow");
+        uint256 val = _msgValue();
+        address oldOwner_ = _jewels[id].owner;
+        require(val >= _jewels[id].price, "not enought fund for buy, check your funds");
+        (bool sent, ) = oldOwner_.call{value: val}("");
+        bool success = _buy(id);
+        require(success && sent);
+        if(_jewels[id].secondaryMarket == false){ _jewels[id].secondaryMarket = true; }
+        _totalSell += 1;
+        _totalValue += val;
+        emit Transfer(id, oldOwner_, _msgSender(), _itemCertify[id], block.timestamp);
+    }
+
+```
 
 ---
 
