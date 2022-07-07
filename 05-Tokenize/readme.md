@@ -84,6 +84,8 @@
 
 ### important:
 
+this 2 boxes have same value on output. this is important for implementation/conversation between 2 contracts in same scope(scope=IShop)
+
 ```solidity
  return interfaceId ==  this.create.selector
              ^ this.changePrice.selector
