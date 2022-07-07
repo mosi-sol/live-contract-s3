@@ -99,3 +99,16 @@ is/should equal
 ```solidity
 return interfaceId == type(IShop).interfaceId; 
 ```
+
+Example:
+```solidity
+return interfaceId == type(IERC165).interfaceId || 
+      interfaceId == type(IShop).interfaceId || 
+      interfaceId ==  this.create.selector
+      ^ this.changePrice.selector
+      ^ this.transfer.selector
+      ^ this.list.selector
+      ^ this.unList.selector
+      ^ this.buy.selector
+      ^ this.verify.selector; // IShop
+```
