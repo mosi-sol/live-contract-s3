@@ -68,18 +68,6 @@
 
 ```
 
----
-
-### p.s:
-- how to tokenize real world into blockchain, without erc721/erc1155
-- how to make market/shop based on smart contracts
-
-*this tokenize contract : i teaching afew days ago from second bootcamp*
-
-**Example = https://mumbai.polygonscan.com/address/0x6908180432b6ac89ae349447f87d9575ab630aac#code**
-
-**Full version = https://testnet.bscscan.com/address/0x1e2adb685159c692c4c4468bf70ec63212365cf2**
-
 #
 
 ### important:
@@ -112,3 +100,15 @@ return interfaceId == type(IERC165).interfaceId ||
       ^ this.buy.selector
       ^ this.verify.selector; // IShop
 ```
+
+---
+
+### p.s:
+- how to tokenize real world into blockchain, without erc721/erc1155
+- how to make market/shop based on smart contracts
+
+*this tokenize contract : i teaching afew days ago from second bootcamp*
+
+**Example = https://mumbai.polygonscan.com/address/0x6908180432b6ac89ae349447f87d9575ab630aac#code**
+
+**Full version = https://testnet.bscscan.com/address/0x1e2adb685159c692c4c4468bf70ec63212365cf2**
