@@ -1,5 +1,7 @@
 # Tokenize real word assets + shop core
 
+> 07-07-2022
+
 ### how to run:
 - deploy `tokenize.sol` with dependencies
 
@@ -78,4 +80,20 @@
 
 **Full version = https://testnet.bscscan.com/address/0x1e2adb685159c692c4c4468bf70ec63212365cf2**
 
-> 07-07-2022
+#
+
+### important:
+
+```solidity
+ return interfaceId ==  this.create.selector
+             ^ this.changePrice.selector
+             ^ this.transfer.selector
+             ^ this.list.selector
+             ^ this.unList.selector
+             ^ this.buy.selector
+             ^ this.verify.selector; // IShop
+```
+is/should equal 
+```solidity
+return interfaceId == type(IShop).interfaceId; 
+```
