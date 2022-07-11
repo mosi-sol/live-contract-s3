@@ -10,3 +10,7 @@ custom errors can use in contract, parent, or outside of contract scope. the sim
 - in function `z()` can change the address of caller 
 
 > 07-11-2022 - live stream
+
+#
+
+different ERROR types -> [here](https://github.com/mosi-sol/live-contracts/tree/main/episode-7) 
