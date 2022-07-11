@@ -20,6 +20,7 @@ for more information check my youtube channel: pafecafe
 - 04- Metaverse Presale - [here](https://github.com/mosi-sol/live-contract-s3/tree/main/04-Metaverse%20-%20sell%20lands%20logic) 
 - 05- Tokenize {create decentralized shop} - [here](https://github.com/mosi-sol/live-contract-s3/tree/main/05-Tokenize) 
 - 06- Safe Transfer {safe actions} - [here](https://github.com/mosi-sol/live-contract-s3/tree/main/06-SafeTransfer) 
+- 07- Debuging by Custom Errors - [here](https://github.com/mosi-sol/live-contract-s3/tree/main/07-Error%20Debug) 
 
 
 ##
