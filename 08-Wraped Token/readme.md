@@ -4,6 +4,7 @@ wrappedToken use for all ERC20 token, example: **WETH** for **ETH**.
 ### deploy
 - copy ERC20 address (for example deploy erc20 Mock)
 - paste address as value in Wrapped contract constructor + name + symbol
+- before anything: approve wrapped contract as/is spender from base erc20 token
 - `deposit` : make wrapped token and locked base token
 - `withdraw` : burn wrapped and return locked token to the life cycle
 - other functions same an ERC20
