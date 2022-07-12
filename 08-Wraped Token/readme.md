@@ -13,3 +13,9 @@ wrappedToken use for all ERC20 token, example: **WETH** for **ETH**.
 - using `IWrapped` interface is custom/optional : if using this intrface, then inherit erc165 & inherite Wrapped contract. need to register
 
 > 07-12-2022 live stream
+
+---
+
+### ready/deployed
+[ERC20 Token](https://testnet.bscscan.com/address/0x22ac23beba298a839657949d1279f886b7a4df50#code) 
+[Wrapped Token](https://testnet.bscscan.com/address/0x33a1ef3987181e09d3e498ba1c1d53f380b46426#code) 
