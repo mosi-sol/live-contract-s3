@@ -21,6 +21,7 @@ for more information check my youtube channel: pafecafe
 - 05- Tokenize {create decentralized shop} - [here](https://github.com/mosi-sol/live-contract-s3/tree/main/05-Tokenize) 
 - 06- Safe Transfer {safe actions} - [here](https://github.com/mosi-sol/live-contract-s3/tree/main/06-SafeTransfer) 
 - 07- Debuging by Custom Errors - [here](https://github.com/mosi-sol/live-contract-s3/tree/main/07-Error%20Debug) 
+- 08- Wrapped ERC20 Token - [here](https://github.com/mosi-sol/live-contract-s3/tree/main/08-Wraped%20Token) 
 
 
 ##
