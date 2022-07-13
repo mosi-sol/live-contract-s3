@@ -8,6 +8,7 @@
 - used: eip-3722 & erc-165 (trakable)
 - anyone can post
 - no need to paye any fee for using to platform/admin
+- demo on LUKSO blockchain [watch here](https://explorer.execution.l16.lukso.network/address/0x4cf1bD0AFF1f14651a91152380114a71123Dd329/contracts) 
 
 ### enjoy it!
 
