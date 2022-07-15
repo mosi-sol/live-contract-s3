@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVM-Base | Wallet Web3</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js" type="application/javascript"></script>
+</head>
+<body>
+    <div class="container my-5">
+
+    <div class="card">
+        <div class="card-header">
+            <h5 class="card-title">Random Wallet Generator</h5>
+        </div>
+        <div class="card-body">
+            <button id="myBtn2" class="btn btn-outline-dark btn-sm my-3" type="button">New Wallet</button>
+            <ul class="list-group list-group-flush">
+                <!-- nmemonic -->
+                <li class="list-group-item"><p class="card-text lead">nmemonic: <b id="nmn"></b></p></li>
+                <!-- private key -->
+                <li class="list-group-item"><p class="card-text lead">private key: <b id="pri"></b></p></li>
+                <!-- public key -->
+                <li class="list-group-item"><p class="card-text lead">public address: <b id="adr"></b></p></li>
+            </ul>
+        </div>
+    </div>
+
+    </div>
+
+<footer class="bg-dark text-light text-center p-5 d-block">
+    made by <a href="https://github.com/mosi-sol" class="text-light fw-bold">mosi-sol</a>  @github 
+</footer>
+
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    
+</body>
+</html>
