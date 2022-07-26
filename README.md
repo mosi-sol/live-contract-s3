@@ -23,6 +23,7 @@ for more information check my youtube channel: pafecafe
 - 07- Debuging by Custom Errors - [here](https://github.com/mosi-sol/live-contract-s3/tree/main/07-Error%20Debug) 
 - 08- Wrapped ERC20 Token - [here](https://github.com/mosi-sol/live-contract-s3/tree/main/08-Wraped%20Token) 
 - 09- Wallet Generator - [here](https://github.com/mosi-sol/live-contract-s3/tree/main/09-%20Wallet%20Generator%20Dapp) - [demo](https://mosi-sol.github.io/Wallet-Web3/) 
+- 10- Role & Ownership Blueprint - [here](https://github.com/mosi-sol/live-contract-s3/tree/main/10-Role%20base%20contract) 
 
 
 ##
