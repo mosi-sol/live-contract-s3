@@ -17,6 +17,9 @@
 
 *you can change amount of `tico` in `constructor` for ico*
 
+**fix:**
+- add `wd();` in line 86 of `ico.sol`
+
 ---
 
 28 jul- 2022
