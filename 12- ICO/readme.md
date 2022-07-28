@@ -13,3 +13,6 @@
 - into `ico` set function `targetIco(tico)`
 - into `ico` run function `release`
 
+*dont forget to approve `ico` address from purchased `pico`*
+
+*you can change amount of `tico` in `constructor` for ico*
