@@ -16,3 +16,7 @@
 *dont forget to approve `ico` address from purchased `pico`*
 
 *you can change amount of `tico` in `constructor` for ico*
+
+---
+
+28 jul- 2022
