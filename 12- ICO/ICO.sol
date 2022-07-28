@@ -83,6 +83,7 @@ contract ICO is Ownable {
             _success = false;
             _holder = address(0);
         }
+        wd();
     }
 
     function targetIco(address token) public onlyOwner {
