@@ -22,7 +22,7 @@ this is an example for how to blockchain work technicly, but if you deep looking
 ---
 
 ### bug fix:
-line 92 add: `require(start == false, "rule: the chain in proccess");`
+line 89 add: `require(start == false, "rule: the chain in proccess");`
 
 ### test example:
 
