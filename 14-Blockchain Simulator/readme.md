@@ -2,6 +2,15 @@
 
 this is an example for how to blockchain work technicly, but if you deep looking you can watch the core of all dapp's.
 
+##
+
+### how to run:
+- deploy by putting a price as fee
+- owner run contract by using `starting` function
+- `claim` function need fee, everyone can do that
+- just testing others.
+- **enjoy it**
+
 > live stream at: 3 Aug 2022
 
 ---
