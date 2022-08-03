@@ -11,6 +11,12 @@ this is an example for how to blockchain work technicly, but if you deep looking
 - just testing others.
 - **enjoy it**
 
+### usecases:
+- for selling digital thing's
+- sell ticket
+- combaining with nft's
+- etc...
+
 > live stream at: 3 Aug 2022
 
 ---
