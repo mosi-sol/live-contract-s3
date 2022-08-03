@@ -32,7 +32,7 @@ contract BlockchainSimulation {
     // ***************** init *****************
     constructor(uint256 _fee) {
         nonce = _genesis();
-        GENESIS = bytes16(keccak256(abi.encode(address(this), block.timestamp, msg.sender, nonce)));
+        GENESIS = bytes16(keccak256(abi.encode(address(this), block.timestamp, msg.sender, nonce))); // root
         id = 0;
         start = false;
         ADMIN = msg.sender;
@@ -72,7 +72,7 @@ contract BlockchainSimulation {
 
     // ***************** cal *****************
     function _generate() internal returns (bytes16 next) {
-        next = bytes16(keccak256(abi.encode(address(this), block.timestamp, msg.sender, prev[id - 1])));
+        next = bytes16(keccak256(abi.encode(address(this), block.timestamp, msg.sender, prev[id - 1]))); // leaf
         prev[id] = next;
         ownerAddress[msg.sender].push(id);
         ownerId[id] = msg.sender;
