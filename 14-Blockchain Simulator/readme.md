@@ -70,5 +70,7 @@ line 89 add: `require(start == false, "rule: the chain in proccess");`
 
 **this type of validate/verify is semi-snapshot, not same as merkle**
 
+---
+
 ### live on BSC testne:
 https://testnet.bscscan.com/address/0xf2b53f01e10b12e0db81834d066b4cd8dd2f7fa9#code
