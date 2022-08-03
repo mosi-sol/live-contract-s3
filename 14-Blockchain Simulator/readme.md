@@ -64,3 +64,6 @@ this is an example for how to blockchain work technicly, but if you deep looking
 "proof": "0x4B20993Bc481177ec7E8f571ceCaE8A9e22C02db"
 
 ```
+
+### live on BSC testne:
+https://testnet.bscscan.com/address/0xf2b53f01e10b12e0db81834d066b4cd8dd2f7fa9#code
