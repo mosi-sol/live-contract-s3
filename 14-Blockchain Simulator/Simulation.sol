@@ -85,7 +85,8 @@ contract BlockchainSimulation {
         emit Pay(id - 1, msg.sender, msg.value, block.timestamp);
     }
 
-    function starting() public onlyAdmin {
+    function starting() public onlyAdmin {    
+        require(start == false, "rule: the chain in proccess");
         prev[0] = GENESIS;
         ownerId[0] = address(this);
         start = true;
