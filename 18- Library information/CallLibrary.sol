@@ -34,7 +34,7 @@ contract MockCall {
         return address(this).balance;
     }
 
-    // type 1: library.function()arguments
+    // type 1: library.function(arguments)
     function deposit() public payable {
         require(Calls.callIn(address(this), msg.value));  
     }
