@@ -8,3 +8,15 @@
 this is an example for *writing* and *using* ***libraries***
 
 > 18 august 2022
+
+### type 1 example
+```solidity
+Calls.callIn(address(this), msg.value);
+```
+
+### type 2 example
+```solidity
+using Calls for address;
+
+msg.sender.callOut(value);
+```
