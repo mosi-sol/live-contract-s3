@@ -4,11 +4,13 @@ pragma solidity 0.8;
 library Calls {
     event CallIn(address,uint256,bytes,bool);
     event CallOut(address,uint256,bool);
+    
     function callIn(address recipient, uint256 amount) internal returns (bool success) {
         (success, ) = recipient.call{value: amount}("");
         require(success);
         emit CallIn(recipient,amount,msg.data,success);
     }
+    
     function callOut(address recipient, uint256 amount) internal returns (bool success) {
         (success, ) = recipient.call{value: amount}("");
         require(success);
@@ -19,7 +21,7 @@ library Calls {
 
 // just import library OR write in same file like top
 contract MockCall {
-    using Calls for address;
+    using Calls for address; // for type 2
 
     fallback() external payable {
         if(msg.value > 0)
