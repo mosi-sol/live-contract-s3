@@ -77,7 +77,7 @@ contract Wrapped is ERC20 {
         success = true;
     }
     
-    function withdraw(address to, uint256 amount) external returns (bool success) {
+    function withdraw(address to, uint256 amount) external returns (bool success) { // make modifier for role--> sender have amount
         require(amount <= balances, "fund is low");
         SafeERC20.safeTransfer(token, to, amount);
         burn(amount);
