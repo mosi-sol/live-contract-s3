@@ -58,7 +58,7 @@ contract Wrapped is ERC20 {
 
     // calculator -------------------------------------------------------
     // before anything: approve this contract to target for start using
-    function deposit(uint256 amount) external returns (bool success) {
+    function deposit(uint256 amount) external returns (bool success) { 
         SafeERC20.safeTransferFrom(token, _msgSender(), address(this), amount);
         mint(amount);
         balances += amount;
@@ -77,7 +77,7 @@ contract Wrapped is ERC20 {
         success = true;
     }
     
-    function withdraw(address to, uint256 amount) external returns (bool success) { // make modifier for role--> sender have amount
+    function withdraw(address to, uint256 amount) external returns (bool success) { 
         require(amount <= balances, "fund is low");
         SafeERC20.safeTransfer(token, to, amount);
         burn(amount);
