@@ -56,8 +56,8 @@ contract BankVault is ReentrancyGuard {
     function withDrawAll() public nonReentrant {
         require(userTokenBalance[msg.sender] > 0, "User doesnt has funds on this vault");
         uint256 amount = userTokenBalance[msg.sender];
-        require(IERC20(tokenAddress).transfer(msg.sender, amount), "the transfer failed");
         userTokenBalance[msg.sender] = 0;
+        require(IERC20(tokenAddress).transfer(msg.sender, amount), "the transfer failed");
         emit tokenWithdrawalComplete(tokenAddress, amount);
     }
 
