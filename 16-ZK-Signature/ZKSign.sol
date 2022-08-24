@@ -45,6 +45,7 @@ contract SignMain {
         require(txSeries[msg.sender] != bytes32(0), "you're signed/claimed");
         require(txSeriesTrue[txSeries[msg.sender]] == true, "you're claimed");
         txSeriesTrue[txSeries[msg.sender]] = false;
+        // do somthing, like minting
         emit Claim(msg.sender, txSeries[msg.sender], txSeriesTrue[txSeries[msg.sender]]);
     }
 }
