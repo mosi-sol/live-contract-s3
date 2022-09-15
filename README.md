@@ -33,6 +33,7 @@ for more information check my youtube channel: pafecafe
 - 17- Whitelist - [here](https://github.com/mosi-sol/live-contract-s3/tree/main/17-%20WhiteList) 
 - 18- Library infomation - [here](https://github.com/mosi-sol/live-contract-s3/tree/main/18-%20Library%20information) 
 - 19- Defi Safe Percentage - [here](https://github.com/mosi-sol/live-contract-s3/tree/main/19-Defi%20Safe%20Percentage) 
+- 20- Whitelist ver2 - [here](https://github.com/mosi-sol/live-contract-s3/tree/main/20-%20Whitelist%20Ver2) 
 
 
 ##
