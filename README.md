@@ -32,6 +32,7 @@ for more information check my youtube channel: pafecafe
 - 16- ZK-Sign - [here](https://github.com/mosi-sol/live-contract-s3/tree/main/16-ZK-Signature) 
 - 17- Whitelist - [here](https://github.com/mosi-sol/live-contract-s3/tree/main/17-%20WhiteList) 
 - 18- Library infomation - [here](https://github.com/mosi-sol/live-contract-s3/tree/main/18-%20Library%20information) 
+- 19- Defi Safe Percentage - [here](https://github.com/mosi-sol/live-contract-s3/tree/main/19-Defi%20Safe%20Percentage) 
 
 
 ##
