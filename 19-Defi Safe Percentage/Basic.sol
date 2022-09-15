@@ -12,7 +12,7 @@ contract SafePercentage {
          percentage = fee;
     }
     
-    function transferFrom(uint256 amount) public view returns (uint256 percentageFee, uint256 total) { 
+    function test(uint256 amount) public view returns (uint256 percentageFee, uint256 total) { 
         percentageFee = (amount.mul(percentage)).div(10000);
         total = amount.sub(percentageFee);
     }
