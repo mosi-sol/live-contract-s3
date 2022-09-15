@@ -4,7 +4,7 @@
 - high performance for using in small projects
 - double spending solved
 
-# test:
+### test:
 use function `claim` after add address.
 
 **Enjoy it!**
