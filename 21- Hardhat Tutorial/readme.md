@@ -2,6 +2,7 @@
 - this tutorial for my students in iran, broadcasted before #IranianWomanProtest2022 .
 - full content on [HARDHAT](https://hardhat.org/tutorial) .
 - you find more information on [DOCUMENTS](https://hardhat.org/docs) .
+- use [Random Wallet Generator](https://mosi-sol.github.io/Wallet-Web3/) for test in end of this tutorial .
 
 ### recomended
 - nodejs [download](https://nodejs.org/en/download/)
