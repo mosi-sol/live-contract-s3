@@ -94,6 +94,6 @@ module.exports = {
 ```
 - *use [this link](https://mosi-sol.github.io/Wallet-Web3/) for generating private key for test.*
 - * `goreli` chain & `alchemy api` just for tutorial*
-- *exaple:* `npx hardhat run scripts/deploy.js --network goerli`
+- *example:* `npx hardhat run scripts/deploy.js --network goerli`
 - *for more security using `.env`*
 
