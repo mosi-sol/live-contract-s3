@@ -79,6 +79,7 @@ const ALCHEMY_API_KEY = "KEY";
 // To export your private key from Metamask, open Metamask and
 // go to Account Details > Export Private Key
 // Beware: NEVER put real Ether into testing accounts
+// MOSI-SOL private key generator= https://mosi-sol.github.io/Wallet-Web3/
 const GOERLI_PRIVATE_KEY = "YOUR GOERLI PRIVATE KEY";
 
 module.exports = {
@@ -91,6 +92,7 @@ module.exports = {
   }
 };
 ```
+- *use [this link](https://mosi-sol.github.io/Wallet-Web3/) for generating private key for test.*
 - * `goreli` chain & `alchemy api` just for tutorial*
 - *exaple:* `npx hardhat run scripts/deploy.js --network goerli`
 - *for more security using `.env`*
