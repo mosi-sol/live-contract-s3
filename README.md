@@ -35,7 +35,7 @@ for more information check my youtube channel: pafecafe
 - 19- Defi Safe Percentage - [here](https://github.com/mosi-sol/live-contract-s3/tree/main/19-Defi%20Safe%20Percentage) 
 - 20- Whitelist ver2 - [here](https://github.com/mosi-sol/live-contract-s3/tree/main/20-%20Whitelist%20Ver2) 
 - 21- Hardhat Tutorial - [here](https://github.com/mosi-sol/live-contract-s3/tree/main/21-%20Hardhat%20Tutorial) 
-
+- 22- Swap Value {using bitwaise operator} - [here](https://github.com/mosi-sol/live-contract-s3/tree/main/22-%20Swap%20Value) 
 
 ##
 
