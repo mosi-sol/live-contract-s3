@@ -38,6 +38,8 @@ for more information check my youtube channel: pafecafe
 - 22- Swap Value {using bitwaise operator} - [here](https://github.com/mosi-sol/live-contract-s3/tree/main/22-%20Swap%20Value) 
 - 23- Odd/Even Number {using bitwise operators} - [here](https://github.com/mosi-sol/live-contract-s3/tree/main/23-%20Even%20Number) 
 
+> Best bitwise use case: CRUD, User Role...
+
 ##
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=mosi-sol&repo=live-contracts)](https://github.com/mosi-sol/live-contracts)
