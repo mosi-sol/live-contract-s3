@@ -36,6 +36,7 @@ for more information check my youtube channel: pafecafe
 - 20- Whitelist ver2 - [here](https://github.com/mosi-sol/live-contract-s3/tree/main/20-%20Whitelist%20Ver2) 
 - 21- Hardhat Tutorial - [here](https://github.com/mosi-sol/live-contract-s3/tree/main/21-%20Hardhat%20Tutorial) 
 - 22- Swap Value {using bitwaise operator} - [here](https://github.com/mosi-sol/live-contract-s3/tree/main/22-%20Swap%20Value) 
+- 23- Odd/Even Number {using bitwise operators} - [here](https://github.com/mosi-sol/live-contract-s3/tree/main/23-%20Even%20Number) 
 
 ##
 
