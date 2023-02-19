@@ -110,10 +110,10 @@
 
 | Sighash   |   Function Signature | 
 | ---- |  ---- | 
-| 55241077  =>  setValue(uint256) | 
-| 86d1a69f  =>  release() | 
-| 379607f5  =>  claim(uint256) | 
-| f8c99ffa  =>  setValue(....,admin,amount) | 
-| c7ba2f0a  =>  targetIco(address) | 
-| 4afe9f1d  =>  viewHolders() | 
-| 8edec689  =>  wd() | 
+| 55241077  |  setValue(uint256) | 
+| 86d1a69f  |  release() | 
+| 379607f5  |  claim(uint256) | 
+| f8c99ffa  |  setValue(....,admin,amount) | 
+| c7ba2f0a  |  targetIco(address) | 
+| 4afe9f1d  |  viewHolders() | 
+| 8edec689  |  wd() | 
