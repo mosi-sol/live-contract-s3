@@ -74,3 +74,114 @@ line 89 add: `require(start == false, "rule: the chain in proccess");`
 
 ### live on BSC testne:
 https://testnet.bscscan.com/address/0xf2b53f01e10b12e0db81834d066b4cd8dd2f7fa9#code
+
+---
+
+### contract info
+
+|  Contract  |         Type        |       Bases      |                  |                 |
+|:----------:|:-------------------:|:----------------:|:----------------:|:---------------:|
+|     └      |  **Function Name**  |  **Visibility**  |  **Mutability**  |  **Modifiers**  |
+||||||
+| **BlockchainSimulation** | Implementation |  |||
+| └ | <Constructor> | Public ❗️ | 🛑  |NO❗️ |
+| └ | <Receive Ether> | External ❗️ |  💵 |NO❗️ |
+| └ | _genesis | Internal 🔒 |   | |
+| └ | getFee | Public ❗️ |   |NO❗️ |
+| └ | getGenesis | Public ❗️ |   |NO❗️ |
+| └ | getBlock | Public ❗️ |   |NO❗️ |
+| └ | getOwnerById | Public ❗️ |   |NO❗️ |
+| └ | getOwnerByAddress | Public ❗️ |   |NO❗️ |
+| └ | _generate | Internal 🔒 | 🛑  | |
+| └ | WD | Internal 🔒 | 🛑  | |
+| └ | starting | Public ❗️ | 🛑  | onlyAdmin |
+| └ | setFee | Public ❗️ | 🛑  | onlyAdmin |
+| └ | claim | Public ❗️ |  💵 | isStart |
+||||||
+| **AuctionNFT** | Implementation | Ownable, ReentrancyGuard |||
+| └ | <Constructor> | Public ❗️ | 🛑  |NO❗️ |
+| └ | startAuction | External ❗️ | 🛑  | onlyOwner |
+| └ | bid | External ❗️ |  💵 |NO❗️ |
+| └ | end | External ❗️ | 🛑  | onlyOwner |
+| └ | _startAuction | Internal 🔒 | 🛑  | |
+| └ | _bid | Internal 🔒 | 🛑  | |
+| └ | _end | Internal 🔒 | 🛑  | |
+| └ | withdraw | External ❗️ | 🛑  | nonReentrant |
+| └ | onERC721Received | Public ❗️ | 🛑  |NO❗️ |
+||||||
+| **StakingRewards** | Implementation |  |||
+| └ | <Constructor> | Public ❗️ | 🛑  |NO❗️ |
+| └ | rewardPerToken | Public ❗️ |   |NO❗️ |
+| └ | earned | Public ❗️ |   |NO❗️ |
+| └ | stake | External ❗️ | 🛑  | updateReward |
+| └ | withdraw | External ❗️ | 🛑  | updateReward |
+| └ | getReward | External ❗️ | 🛑  | updateReward |
+||||||
+| **IERC20** | Interface |  |||
+| └ | totalSupply | External ❗️ |   |NO❗️ |
+| └ | balanceOf | External ❗️ |   |NO❗️ |
+| └ | transfer | External ❗️ | 🛑  |NO❗️ |
+| └ | allowance | External ❗️ |   |NO❗️ |
+| └ | approve | External ❗️ | 🛑  |NO❗️ |
+| └ | transferFrom | External ❗️ | 🛑  |NO❗️ |
+||||||
+| **IERC721** | Interface |  |||
+| └ | balanceOf | External ❗️ |   |NO❗️ |
+| └ | ownerOf | External ❗️ |   |NO❗️ |
+| └ | safeTransferFrom | External ❗️ |  💵 |NO❗️ |
+| └ | safeTransferFrom | External ❗️ |  💵 |NO❗️ |
+| └ | transferFrom | External ❗️ |  💵 |NO❗️ |
+| └ | approve | External ❗️ |  💵 |NO❗️ |
+| └ | setApprovalForAll | External ❗️ | 🛑  |NO❗️ |
+| └ | getApproved | External ❗️ |   |NO❗️ |
+| └ | isApprovedForAll | External ❗️ |   |NO❗️ |
+||||||
+| **IERC165** | Interface |  |||
+| └ | supportsInterface | External ❗️ |   |NO❗️ |
+||||||
+| **IERC721TokenReceiver** | Interface |  |||
+| └ | onERC721Received | External ❗️ | 🛑  |NO❗️ |
+||||||
+| **IERC721Metadata** | Interface |  |||
+| └ | name | External ❗️ |   |NO❗️ |
+| └ | symbol | External ❗️ |   |NO❗️ |
+| └ | tokenURI | External ❗️ |   |NO❗️ |
+||||||
+| **IERC721Enumerable** | Interface |  |||
+| └ | totalSupply | External ❗️ |   |NO❗️ |
+| └ | tokenByIndex | External ❗️ |   |NO❗️ |
+| └ | tokenOfOwnerByIndex | External ❗️ |   |NO❗️ |
+||||||
+| **ICO** | Implementation | Ownable |||
+| └ | <Constructor> | Public ❗️ | 🛑  |NO❗️ |
+| └ | <Receive Ether> | External ❗️ |  💵 |NO❗️ |
+| └ | release | Public ❗️ | 🛑  | onlyOwner |
+| └ | setValue | Public ❗️ | 🛑  | onlyOwner |
+| └ | claim | Public ❗️ |  💵 |NO❗️ |
+| └ | targetIco | Public ❗️ | 🛑  | onlyOwner |
+| └ | viewHolders | Public ❗️ |   |NO❗️ |
+| └ | wd | Private 🔐 | 🛑  | |
+
+
+ Legend
+
+|  Symbol  |  Meaning  |
+|:--------:|-----------|
+|    🛑    | Function can modify state |
+|    💵    | Function is payable |
+
+### signature hash
+
+| Sighash   |   Function Signature | 
+| ---- | ---- | 
+| 7c86f537  |  _genesis() | 
+| ced72f87  |  getFee() | 
+| 1a43bcb5  |  getGenesis() | 
+| 04c07569  |  getBlock(uint256) | 
+| 76bf001c  |  getOwnerById(uint256) | 
+| 6f442154  |  getOwnerByAddress(address) | 
+| f25c3077  |  _generate() | 
+| f4da755f  |  WD() | 
+| be46e9ca  |  starting() | 
+| 69fe0e2d  |  setFee(uint256) | 
+| 4e71d92d  |  claim() | 
