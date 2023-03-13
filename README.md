@@ -26,7 +26,7 @@ for more information check my youtube channel: pafecafe
 | 11 | Decentralized Bank Vault | [here](https://github.com/mosi-sol/live-contract-s3/tree/main/11-%20Decentralized%20Bank%20Vault) | 
 | 12 | ICO , IPO , IDO | [here](https://github.com/mosi-sol/live-contract-s3/tree/main/12-%20ICO) | 
 | 13 | Dapp web3 basic | [here](https://github.com/mosi-sol/live-contract-s3/tree/main/13-%20Dapp%20infrastructure) | 
-| 14 | Blockchain Simulator | [here](https://github.com/mosi-sol/live-contract-s3/tree/main/14-Blockchain%20Simulator) [node-js version](https://github.com/mosi-sol/shell/tree/main/Blockchain%20Simulator) | 
+| 14 | Blockchain Simulator | [here](https://github.com/mosi-sol/live-contract-s3/tree/main/14-Blockchain%20Simulator) - [node-js version](https://github.com/mosi-sol/shell/tree/main/Blockchain%20Simulator) | 
 | 15 | Proof Of Exist {POE} | [here](https://github.com/mosi-sol/live-contract-s3/tree/main/15-Proof%20of%20Exist) | 
 | 16 | ZK-Sign | [here](https://github.com/mosi-sol/live-contract-s3/tree/main/16-ZK-Signature) | 
 | 17 | Whitelist | [here](https://github.com/mosi-sol/live-contract-s3/tree/main/17-%20WhiteList) | 
